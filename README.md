@@ -1,63 +1,63 @@
 # Sport Booking
 
-Hệ thống đặt lịch sân thể thao — cho phép người dùng tìm kiếm, xem lịch trống và đặt sân thể thao trực tuyến.
+A sports facility booking system — allows users to search for courts, view available time slots, and book sports venues online.
 
-## Tính năng chính (dự kiến)
+## Key Features (Planned)
 
-- Tìm kiếm sân theo loại môn thể thao, vị trí, khung giờ
-- Xem lịch trống theo ngày / tuần
-- Đặt sân, hủy sân, đổi lịch
-- Quản lý sân (dành cho chủ sân)
-- Xác nhận đặt sân qua email / thông báo
-- Thanh toán (tích hợp sau)
+- Search courts by sport type, location, and time slot
+- View availability by day / week
+- Book, cancel, and reschedule courts
+- Venue management (for venue owners)
+- Booking confirmation via email / notifications
+- Payments (to be integrated later)
 
-## Công nghệ sử dụng
+## Tech Stack
 
 - **Frontend:** TBD (React / Next.js / Vue...)
 - **Backend:** TBD (Node.js / Go / Java...)
-- **Cơ sở dữ liệu:** TBD (PostgreSQL / MySQL...)
-- **Triển khai:** TBD (Docker, CI/CD...)
+- **Database:** TBD (PostgreSQL / MySQL...)
+- **Deployment:** TBD (Docker, CI/CD...)
 
-## Cấu trúc dự án (dự kiến)
+## Project Structure (Planned)
 
 ```
 sport-booking/
 ├── README.md
-├── docs/           # Tài liệu thiết kế, yêu cầu
-├── frontend/       # Ứng dụng client
+├── docs/           # Design docs, requirements
+├── frontend/       # Client application
 ├── backend/        # API server
 └── ...
 ```
 
-## Bắt đầu
+## Getting Started
 
-### Yêu cầu môi trường
+### Prerequisites
 
-- Node.js >= 20 (hoặc runtime khác theo stack chọn)
-- Docker & Docker Compose (tùy chọn)
+- Node.js >= 20 (or another runtime depending on the chosen stack)
+- Docker & Docker Compose (optional)
 
-### Cài đặt
+### Installation
 
 ```bash
 git clone https://github.com/dqhieuse/sport-booking.git
 cd sport-booking
-# TODO: hướng dẫn cài đặt dependencies sau khi cấu trúc dự án được xác định
+# TODO: dependency installation instructions once the project structure is finalized
 ```
 
-### Chạy dự án
+### Running the Project
 
 ```bash
-# TODO: lệnh chạy development server
+# TODO: development server command
 ```
 
-## Đóng góp
+## Contributing
 
-Mọi đóng góp đều được chào đón. Vui lòng mở issue trước khi gửi pull request lớn.
+Contributions are welcome. Please open an issue before submitting large pull requests.
 
-## Giấy phép
+## License
 
-TBD — xem chi tiết tại `LICENSE` khi được thêm.
+TBD — see `LICENSE` for details once added.
 
-## Trạng thái dự án
+## Project Status
 
-🚧 Đang trong giai đoạn khởi tạo — README này là skeleton và sẽ được cập nhật khi dự án có tiến triển.
+🚧 In the initialization stage — this README is a skeleton and will be updated as the project progresses.
